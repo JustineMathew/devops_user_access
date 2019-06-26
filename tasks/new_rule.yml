@@ -1,0 +1,5 @@
+---
+- name: " Adding new rule for the group bibli devops"
+  lineinfile:
+    path: "{{ file_name }}"
+    line: '%{{ group_name }} ALL=(ALL:ALL) NOPASSWD:ALL'

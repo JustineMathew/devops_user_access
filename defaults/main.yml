@@ -1,0 +1,22 @@
+---
+file_name: /etc/sudoers.d/google_sudoers
+group_name: blibli_devops
+usernames:
+  - ammariyah
+  - alizeyjalil
+  - anchal
+  - ankit
+  - denzil_suares
+  - hendra_budiawan
+  - hendro.taufik
+  - justinemathew
+  - manikdham
+  - michael.tohar
+  - pelashchoudhary
+  - shradhasharma
+  - sreevalsan
+  - tushardwivedi
+  - williams.perdana
+  - wilperdana
+  - yashvanzara
+  - ec2-user

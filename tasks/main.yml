@@ -1,0 +1,5 @@
+---
+- include_tasks: devops_group.yml
+- include_tasks: editing_sudoers.yml
+- include_tasks: adding_users.yml
+- include_tasks: new_rule.yml

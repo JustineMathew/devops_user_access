@@ -1,0 +1,6 @@
+---
+- name: "Editing /etc/sudoers.d/google_sudoers"
+  replace:
+    path: "{{ file_name }}"
+    regexp: "%google-sudoers\\s+ALL\\=\\(ALL\\:ALL\\)\\s+NOPASSWD\\:ALL"
+    replace: "%google-sudoers ALL=!/usr/bin/su"
